@@ -1,0 +1,31 @@
+mcPLUS_PARAMETER_START
+
+# Input LULC
+STR_LULC = /home/gao/Code/Data/Data_mcPLUS/PLUS_test_data/LULCs/wh2003_refy_uc.tif
+
+# Output LULC
+STR_SIMUL_LULC = /home/gao/Code/Data/Data_mcPLUS/PLUS_test_data/Simul_mcPLUS.tif
+
+# Policy (i.e., conversion constrains)
+STR_POLICY = /home/gao/Code/Data/Data_mcPLUS/PLUS_test_data/water/wh_open_water13.tif
+
+# Path of development potentials
+STR_DEVEL_POTEN = /home/gao/Code/Data/Data_mcPLUS/PLUS_test_data/TransPoten/
+
+# Patch generation threshold, 0-1
+PATCH_GENER = 0.9
+
+# Patch Expansion coefficient
+PATCH_EXPAN = 0.1
+
+# Land demands. support several years
+STR_LAND_DEMANDS = 44394,231113,2477356,929417,39413,1453586,150790
+
+# Neighborhood weight 
+STR_NEIGH_WEIGHT = 1,1,1,1,1,1,1
+
+# Transition matrix
+STR_TRANS_MATRIX = 1,1,1,1,1,1,1;1,1,1,1,1,1,1;1,1,1,1,1,1,1;1,1,1,1,1,1,1;1,1,1,1,1,1,1;1,1,1,1,1,1,1;1,1,1,1,1,1,1
+
+
+mcPLUS_PARAMETER_END

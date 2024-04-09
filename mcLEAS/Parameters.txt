@@ -1,0 +1,36 @@
+LEAS_PARAMETER_START
+
+# Input LULC
+sLulc = ../Data/LULCs/wuhan_03_13_landuse_1to2.tif
+
+# Input Featrue folder
+sFeatureFolder = ../Data/DriveFactors/
+
+# Output probability
+sSimulate = ../Data/DevelPotens/Devel.tif
+
+# Input max iteration
+iMaxEpoch = 10000
+
+# Input sampling patch size
+iPatchSizeSam = 1
+
+
+# Input thread count
+miThread = 6
+
+# Input sampling rate
+dSamRate = 0.01
+
+# Is balance?
+bIsBalance = 0
+
+
+# Input the number of trees
+iHidLayer = 20
+
+# mTry
+imTry = 16
+
+
+LEAS_PARAMETER_END
