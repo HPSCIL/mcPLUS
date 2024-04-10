@@ -34,7 +34,7 @@ Folder "mcPLUS" contains the program and sample data for mcPLUS, including three
   - WaterWuhan.tif: water body data of Wuhan city,  as "conversion constrains" 
 
 ## 4. To run
-0. You need to use PLUS for data preprocessing, such as obtaining land expansion maps.
+0. You need to use [PLUS](https://github.com/HPSCIL/Patch-generating_Land_Use_Simulation_Model.git) for data preprocessing, such as obtaining land expansion maps.
 1. Edit the parameter file, primarily adjusting the data paths to match those on your computer.
 2. If you are running it on a single computer, use the following command to run the shell script file:  
 - $ ./runXXX.sh  
